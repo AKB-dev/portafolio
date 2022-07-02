@@ -41,11 +41,21 @@ li{
 h1{
     font-size: 90px;
 }
+.hero-area{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
 
 .hero-text{
     margin-left: 80px;
 }
 
+.hero-img{
+    height: 50%;
+    width: 50%;
+}
 .btn{
     width: 200px;
     height: 50px;
