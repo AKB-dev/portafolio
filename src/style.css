@@ -4,6 +4,9 @@
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
 
 section{
     height: 500px;
@@ -26,6 +29,13 @@ footer{
 nav{
     display: flex;
     justify-content: space-between;
+    font-size: 30px;
+    
+}
+
+.logo{
+    font-size: 40px;
+    margin: 10px;
 }
 
 ul{
@@ -36,6 +46,7 @@ ul{
 
 li{
     text-decoration: none;
+    margin-top: 30px;
 }
 
 h1{
@@ -43,25 +54,58 @@ h1{
 }
 .hero-area{
     display: flex;
-    flex-direction: column;
     height: 100%;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
 .hero-text{
     margin-left: 80px;
+    margin-bottom: 200px;
 }
 
-.hero-img{
-    height: 50%;
-    width: 50%;
+
+.hero-img img{
+    height: 65%;
+    width: 100%;
 }
+
+.hero-img .btn{
+    font-size: 25px;
+    align-self: center;
+    margin: auto;
+}
+
 .btn{
     width: 200px;
-    height: 50px;
+    height: 60px;
     background-color:coral;
     border-radius: 30px;
     text-align: center;
     font-weight: 200;
     padding-top: 5px;
+    margin: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover{
+    background-color: #df4815;
+}
+
+.btn:active{
+    background-color: aliceblue;
+    color: coral;
+}
+
+.socials{
+    padding-bottom: 200px;
+    margin: 50px;
+
+}
+
+.icons{
+    padding: 10px;
+    color: aliceblue;
 }
