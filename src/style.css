@@ -6,10 +6,14 @@
 
 a{
     text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: #0068AE;
 }
 
 section{
-    height: 500px;
     background-color: white;
     border: solid black 1px;
 }
@@ -17,7 +21,7 @@ section{
 .hero {
     background-color: #1c1d25;
     height: 100vh;
-    color: white;
+    color: aliceblue;
     font-size: 40px;
 }
 
@@ -36,7 +40,10 @@ nav{
 .logo{
     font-size: 40px;
     margin: 10px;
+    cursor: pointer;
+    user-select: none;
 }
+
 
 ul{
     display: flex;
@@ -52,6 +59,11 @@ li{
 h1{
     font-size: 90px;
 }
+
+h2{
+    font-size: 50px;
+}
+
 .hero-area{
     display: flex;
     height: 100%;
@@ -108,4 +120,28 @@ h1{
 .icons{
     padding: 10px;
     color: aliceblue;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    align-items: center;
+}
+
+.info{
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.portrait-container{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.portrait{
+    background-color: #0068AE;
+    border-radius: 50%;
+    width: 80%;
 }
