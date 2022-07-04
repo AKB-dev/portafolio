@@ -5,7 +5,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9b42d46022.js" crossorigin="anonymous"></script>    <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/9b42d46022.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="src/assets/web-icon.png" type="image/png">
     <title>Portafolio</title>
 </head>
 <body>
@@ -13,8 +15,8 @@
         <nav>
             <div class="logo">AKB</div>
             <ul>
-                <li><a href="#">Présentation</a></li>
-                <li><a href="#">Portafolio</a></li>
+                <li><a href="#me">Présentation</a></li>
+                <li><a href="#portafolio">Projets</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -22,7 +24,7 @@
                 <div class="hero-text">
                     <h1>Adel K. Bargach</h1>
                     <p style="color: #529be0e9;">Développeur Web</p>
-                    <div class="btn">About Me</div>
+                    <div class="btn">CV</div>
                 </div>
       <!--           <div class="hero-img">
                     <img src="src/assets/Design.png" alt="">
@@ -34,12 +36,60 @@
                 </div>
             </div>
     </section>
-    <section class="about-me">
-        <div class="info">
-            <h2>Présentation</h2>
-            <p>Salut, Je suis Adel, étudiant à la <a href="https://www.webacademie.org/" style="color:#0068AE ;">Web@cademié - Epitech</a> en Intégrateur Web, je suis passionné par le Code et les nouvelles technologies. Actuellement à la recherche d'un contrat d'apprentissage en alternance qui me permettra de valider ma seconde année et d'améliorer mes compétences dans le développement web. </p>
+    <section class="presentation" id="me">
+        <div class="about-me">
+            <div class="info">
+                <h2>Présentation</h2>
+                <p>Salut, Je suis Adel, étudiant à la <a href="https://www.webacademie.org/" style="color:#0068AE ;">Web@cademié - Epitech</a> en Intégrateur Web, je suis passionné par le Code et les nouvelles technologies. Actuellement à la recherche d'un contrat d'apprentissage en alternance qui me permettra de valider ma seconde année et d'améliorer mes compétences dans le développement web. </p>
+            </div>
+            <div class="portrait-container"><img class="portrait" src="src/assets/portrait.png" alt="my face"></div>
         </div>
-        <div class="portrait-container"><img class="portrait" src="src/assets/portrait.png" alt="my face"></div>
+        <div class="skills">
+            <span><i class="fa-brands fa-html5 fa-5x"></i><p>HTML</p></span>
+            <span><i class="fa-brands fa-css3-alt fa-5x"></i><p>CSS</p></span>
+            <span><i class="fa-brands fa-js fa-5x"></i><p>JavaScript</p></span>
+            <span><i class="fa-brands fa-react fa-5x"></i><p>React</p></span>
+        </div>
+        <div class="skills">
+            <span><i class="fa-brands fa-node fa-5x"></i><p>Node</p></span>
+            <span><i class="fa-brands fa-php fa-5x"></i><p>PHP</p></span>
+            <span><i class="fa-solid fa-database fa-5x"></i><p>MySQL</p></span>
+        </div>
+    </section>
+    <section class="portafolio" id="portafolio">
+        <div>
+            <h2>Projets</h2>
+            <div class="project-container">
+                <div class="project-card projet1">
+                    <div class="projet-text">
+                        <h3>Projet 4</h3>
+                            <div class="icons">
+                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="project-card projet2">
+                    <div class="projet-text">
+                        <h3>Projet 4</h3>
+                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-solid fa-code"></i>
+                    </div>
+                </div>
+                <div class="project-card projet3">
+                    <div class="projet-text">
+                        <h3>Projet 4</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-card projet4">
+                    <div class="projet-text">
+                        <h3>Projet 4</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section></section>
     <footer></footer>
