@@ -187,10 +187,6 @@ span:hover{
     align-items: center;
 }
 
-.portafolio{
-    margin: 2rem;
-}
-
 
 .project-container{
     display: flex;
@@ -199,7 +195,7 @@ span:hover{
 }
 
 .portafolio{
-    margin-top: 4rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
