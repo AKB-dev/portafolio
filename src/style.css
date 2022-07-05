@@ -57,7 +57,7 @@ li{
 }
 
 h1{
-    font-size: 90px;
+    font-size: 4em;
 }
 
 h2{
@@ -78,27 +78,38 @@ h2{
     margin-bottom: 200px;
 }
 
+.hero-text p{
+    font-size: 2em;
+}
+
+
+/* .hero-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .hero-img img{
-    height: 65%;
-    width: 100%;
+    width: 70rem;
 }
 
 .hero-img .btn{
     font-size: 25px;
     align-self: center;
     margin: auto;
-}
+} */
 
 .btn{
-    width: 100px;
-    height: 55px;
+    font-size: 1.4em;
+    width: 10rem;
+    height: 5rem;
     background-color:coral;
-    border-radius: 30px;
+    border-radius: 2.5rem;
     text-align: center;
     font-weight: 200;
-    padding-top: 5px;
-    margin: 20px;
+    padding-top: .9rem;
+    margin: 2rem;
     cursor: pointer;
     user-select: none;
 }
@@ -113,8 +124,8 @@ h2{
 }
 
 .socials{
-    padding-bottom: 200px;
-    margin: 50px;
+    padding-bottom: 15rem;
+    margin: 5rem;
 
 }
 
@@ -125,22 +136,25 @@ h2{
 
 .presentation{
     height: 100vh;
+    padding: 2rem;
 }
 
 .about-me{
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 2rem 5rem;
     align-items: center;
+    box-shadow: 5px 5px 20px #0068AE;
+    margin: 3rem;
 }
 
 .info{
-    width: 50%;
-    font-size: 1.2em;
+    width: auto;
+    font-size: 2em;
 }
 
 span{
-    width: 150px;
+    width: 15rem;
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -162,13 +176,14 @@ span:hover{
 .portrait-container{
     display: flex;
     align-items: center;
-    margin-left: 80px;
+    justify-content:center;
+    margin-right: 0 5rem;
 }
 
 .portrait{
     background-color: #0068AE;
     border-radius: 50%;
-    width: 80%;
+    width: ;
 }
 
 .project-container{
@@ -185,53 +200,53 @@ span:hover{
 }
 
 .project-card{
-    width: 30%;
-    height: 300px;
+    width:50rem;
+    height: 30rem;
     box-shadow: 5px 5px 20px #0068AE;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+hr {
+    width: 50%;
+}
+.project-card p{
+    opacity: 0;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+.project-card:hover{
+    box-shadow: 0 0 0 40rem rgba(0, 0, 0, 0.9) inset;
+}
+
+.project-card:hover p{
+    opacity: 1;
 }
 
 .projet1{
     background-image: url('/src/assets/Mycinema.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .projet2{
     background-image: url('/src/assets/Cal.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .projet3{
     background-image: url('/src/assets/dashboard.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .projet4{
     background-image: url('/src/assets/landingpage.png');
-    background-position: center;
-    background-size: cover;
 }
 
 
+footer{
 
-.projet-text h3{
-    opacity: 0;
-    transform: scale(0);
-    font-size: 2rem;
-    color: white;
-}
-
-.project-card:hover{
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
-}
-
-.projet-text:hover h3, p, i{
-    opacity: 1;
-    transform: scale(1);
 }
