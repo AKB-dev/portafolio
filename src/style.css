@@ -22,7 +22,6 @@ section{
     background-color: #1c1d25;
     height: 100vh;
     color: white;
-    font-size: 40px;
 }
 
 footer{
@@ -57,11 +56,11 @@ li{
 }
 
 h1{
-    font-size: 4em;
+    font-size: 7em;
 }
 
 h2{
-    font-size: 50px;
+    font-size: 2.5em;
     padding-bottom: 1rem;
 }
 
@@ -74,14 +73,13 @@ h2{
 }
 
 .hero-text{
-    margin-left: 80px;
-    margin-bottom: 200px;
+    margin-left: 5rem;
+    margin-bottom: 15rem;
 }
 
 .hero-text p{
-    font-size: 2em;
+    font-size: 4rem;
 }
-
 
 /* .hero-img{
     display: flex;
@@ -101,9 +99,9 @@ h2{
 } */
 
 .btn{
-    font-size: 1.4em;
-    width: 10rem;
-    height: 5rem;
+    font-size: 2.5em;
+    width: 8rem;
+    height: 4rem;
     background-color:coral;
     border-radius: 2.5rem;
     text-align: center;
@@ -136,7 +134,7 @@ h2{
 
 .presentation{
     height: 100vh;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .about-me{
@@ -145,12 +143,28 @@ h2{
     padding: 2rem 5rem;
     align-items: center;
     box-shadow: 5px 5px 20px #0068AE;
-    margin: 3rem;
+    margin: 1.5rem 5rem;
 }
 
 .info{
     width: auto;
-    font-size: 2em;
+    margin-right: 5rem;
+}
+
+.info p{
+    font-size: 1.2rem;
+}
+
+.portrait-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.portrait{
+    background-color: #0068AE;
+    border-radius: 50%;
+    width: 17rem;
 }
 
 span{
@@ -173,26 +187,19 @@ span:hover{
     align-items: center;
 }
 
-.portrait-container{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    margin-right: 0 5rem;
+.portafolio{
+    margin: 2rem;
 }
 
-.portrait{
-    background-color: #0068AE;
-    border-radius: 50%;
-    width: ;
-}
 
 .project-container{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 .portafolio{
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -200,8 +207,8 @@ span:hover{
 }
 
 .project-card{
-    width:50rem;
-    height: 30rem;
+    width:32rem;
+    height: 20rem;
     box-shadow: 5px 5px 20px #0068AE;
     border-radius: 10px;
     display: flex;
@@ -217,7 +224,7 @@ hr {
 }
 .project-card p{
     opacity: 0;
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: white;
     padding: 1rem;
 }
@@ -244,9 +251,4 @@ hr {
 
 .projet4{
     background-image: url('/src/assets/landingpage.png');
-}
-
-
-footer{
-
 }
