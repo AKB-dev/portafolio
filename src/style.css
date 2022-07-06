@@ -334,6 +334,13 @@ span:hover{
         font-size: 2em;
         font-weight: 700;
     }
+
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5rem;
+    }
     
     .about-me{
         margin: .5rem 2rem;
@@ -352,6 +359,10 @@ span:hover{
 
     .fa{
         font-size: 5rem;
+    }
+
+    .portafolio{
+        padding-top: 5rem;
     }
 
     .project-card{
