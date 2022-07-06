@@ -99,17 +99,21 @@ h2{
 } */
 
 .btn{
-    font-size: 2.5em;
     width: 8rem;
     height: 4rem;
     background-color:coral;
     border-radius: 2.5rem;
     text-align: center;
     font-weight: 200;
-    padding-top: .9rem;
+    padding-top: .5rem;
     margin: 2rem;
     cursor: pointer;
     user-select: none;
+}
+
+.btn a{
+    font-size: 3em;
+    font-weight: 700;
 }
 
 .btn:hover{
@@ -176,6 +180,10 @@ span{
     border-radius: 10%;
 }
 
+.fa {
+    font-size: 10rem;
+}
+
 span:hover{
     background-color: #0068AE;
     color: white;
@@ -191,11 +199,11 @@ span:hover{
 .project-container{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .portafolio{
-    padding-top: 3rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -203,7 +211,7 @@ span:hover{
 }
 
 .project-card{
-    width:32rem;
+    width: 30%;
     height: 20rem;
     box-shadow: 5px 5px 20px #0068AE;
     border-radius: 10px;
@@ -215,12 +223,16 @@ span:hover{
     background-size: cover;
 }
 
-hr {
-    width: 50%;
+.projet-titre{
+    font-size: 2.5rem;
 }
+
+.description{
+    font-size: 1.3rem;
+}
+
 .project-card p{
     opacity: 0;
-    font-size: 1.3rem;
     color: white;
     padding: 1rem;
 }
@@ -247,4 +259,123 @@ hr {
 
 .projet4{
     background-image: url('/src/assets/landingpage.png');
+}
+
+
+@media only screen and (max-width: 1550px) {
+    .portrait{
+        background-color: #0068AE;
+        border-radius: 50%;
+        width: 14rem;
+    }
+    
+    span{
+        width: 7rem;
+
+    }
+
+    .fa{
+        font-size: 5rem;
+    }
+
+    .project-card{
+        width: 30%;
+        height: 17rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .portrait{
+        background-color: #0068AE;
+        border-radius: 50%;
+        width: 10.5rem;
+    }
+    
+    span{
+        width: 7rem;
+
+    }
+
+    .fa{
+        font-size: 5rem;
+    }
+
+    .project-card{
+        width: 25%;
+        height: 14rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-me{
+        margin: .5rem 2rem;
+    }
+
+    .portrait{
+        background-color: #0068AE;
+        border-radius: 50%;
+        width: 12rem;
+    }
+
+    span{
+        width: 7rem;
+
+    }
+
+    .fa{
+        font-size: 5rem;
+    }
+
+    .project-card{
+        width: 25%;
+        height: 14rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5rem;
+    }
+
+    .info{
+        margin-right: 0rem;
+    }
+
+    .about-me{
+        width: 75%;
+    }
+
+    .portrait{
+        background-color: #0068AE;
+        border-radius: 50%;
+        width: 11rem;
+    }
+
+    span{
+        width: 5rem;
+    }
+
+    .fa{
+        font-size: 3rem;
+    }
+
+    .project-card{
+        width: 25%;
+        height: 14rem;
+    }
+
+    .projet-titre{
+        font-size: 1.5rem;
+    }
+
+    .description{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    
 }
