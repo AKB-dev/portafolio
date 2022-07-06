@@ -24,11 +24,6 @@ section{
     color: white;
 }
 
-footer{
-    height: 500px;
-    background-color: black;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -210,7 +205,7 @@ span:hover{
 }
 
 .project-card{
-    width: 30%;
+    width: 30rem;
     height: 20rem;
     box-shadow: 5px 5px 20px #0068AE;
     border-radius: 10px;
@@ -260,6 +255,12 @@ span:hover{
     background-image: url('/src/assets/landingpage.png');
 }
 
+footer{
+    height: 500px;
+    background-color: black;
+    color: aliceblue;
+}
+
 
 @media only screen and (max-width: 1550px) {
     .portrait{
@@ -300,8 +301,8 @@ span:hover{
     }
 
     .project-card{
-        width: 25%;
-        height: 14rem;
+        width: 27rem;
+        height: 17rem;
     }
 }
 
@@ -362,12 +363,20 @@ span:hover{
     }
 
     .portafolio{
-        padding-top: 5rem;
+        padding-top: 1rem;
+        height: 100%;
+    }
+
+    .project-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .project-card{
-        width: 25%;
-        height: 14rem;
+        width: 30rem;
+        height: 17rem;
+        margin: 1rem;
     }
 
     .projet-titre{
@@ -427,9 +436,12 @@ span:hover{
         font-size: 3rem;
     }
 
+
+
     .project-card{
-        width: 25%;
+        width: 27rem;
         height: 14rem;
+        margin-bottom: 2rem;
     }
 
     .projet-titre{
