@@ -45,10 +45,20 @@ ul{
     width: 37rem;
 }
 
+
 li{
     text-decoration: none;
     margin-top: 2rem;
 }
+
+.menuBtn{
+    display: none;
+}
+
+.menuBtn:focus{
+    outline: 0;
+}
+
 
 h1{
     font-size: 7rem;
@@ -205,6 +215,7 @@ span:hover{
 }
 
 .project-card{
+    margin-top: 10rem;
     width: 30rem;
     height: 20rem;
     box-shadow: 5px 5px 20px #0068AE;
@@ -309,6 +320,35 @@ footer{
 @media only screen and (max-width: 1024px) {
     h1{
         font-size: 5rem;
+    }
+
+    .menuBtn{
+        display: flex;
+        align-self: flex-end;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 3rem;
+        margin: 1rem;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #404357;
+    }
+
+    ul{
+        display: none;
+        margin: 0;
+    }
+
+    ul.show{
+        display: block;
+    }
+
+    .logo{
+        display: none;
     }
 
     .hero-text p{
@@ -419,7 +459,11 @@ footer{
     }
 
     .about-me{
+        margin-top: 4rem;
         width: 75%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .portrait{
@@ -454,205 +498,72 @@ footer{
 }
 
 @media only screen and (max-width: 425px) {
-    .hero {
-        background-color: #1c1d25;
-        height: 100vh;
-        color: white;
-    }
-    
-    footer{
-        height: 500px;
-        background-color: black;
-    }
-    
-    nav{
-        display: none;
-        justify-content: space-between;
-        font-size: 3rem;
-        
-    }
-    
-    .logo{
-        font-size: 3rem;
-        margin: 1rem;
-        cursor: pointer;
-        user-select: none;
-    }
-    
-    
-    ul{
-        display: flex;
-        justify-content: space-around;
-        width: 37rem;
-    }
-    
-    li{
-        text-decoration: none;
-        margin-top: 2rem;
-    }
-    
-    h1{
-        font-size: 7em;
-    }
-    
-    h2{
-        font-size: 2.5em;
-        padding-bottom: 1rem;
-    }
-    
-    .hero-area{
-        display: flex;
-        height: 100%;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 100px;
-    }
-    
     .hero-text{
-        margin-left: 5rem;
-        margin-bottom: 15rem;
+        margin-left: 1rem;
     }
-    
-    .hero-text p{
+    h1{
         font-size: 4rem;
     }
-    
-    .btn{
-        width: 8rem;
-        height: 4rem;
-        background-color:coral;
-        border-radius: 2.5rem;
-        text-align: center;
-        font-weight: 200;
-        padding-top: .5rem;
-        margin: 2rem;
-        cursor: pointer;
-        user-select: none;
+
+    .hero-text p{
+        font-size: 2rem;
     }
-    
-    .btn a{
-        font-size: 3em;
-        font-weight: 700;
-    }
-    
-    .btn:hover{
-        background-color: #df4815;
-    }
-    
-    .btn:active{
-        background-color: white;
-        color: coral;
-    }
-    
+
     .socials{
         padding-bottom: 15rem;
-        margin: 5rem;
-    
     }
-    
+
     .icons{
-        padding: 10px;
-        color: white;
+        font-size: 2rem;
     }
-    
+
+
     .presentation{
-        height: 100vh;
-        padding: 1rem;
-    }
-    
-    .about-me{
         display: flex;
-        justify-content: space-between;
-        padding: 2rem 5rem;
+        flex-direction: column;
         align-items: center;
-        box-shadow: 5px 5px 20px #0068AE;
-        margin: 1.5rem 5rem;
+        padding-top: 3rem;
     }
-    
+
     .info{
-        width: auto;
-        margin-right: 5rem;
+        margin-right: 0rem;
     }
-    
-    .info p{
-        font-size: 1.2rem;
-    }
-    
-    .portrait-container{
+
+    .about-me{
+        margin-top: 4rem;
+        width: 75%;
         display: flex;
-        align-items: center;
-        justify-content:center;
+        flex-direction: column;
+        text-align: center;
     }
-    
+
     .portrait{
         background-color: #0068AE;
         border-radius: 50%;
-        width: 17rem;
+        width: 11rem;
     }
-    
+
     span{
-        width: 15rem;
-        margin: 10px;
-        padding: 5px;
-        text-align: center;
-        border: #0068AE 2px solid;
-        border-radius: 10%;
+        width: 5rem;
     }
-    
-    .fa {
-        font-size: 10rem;
+
+    .fa{
+        font-size: 3rem;
     }
-    
-    span:hover{
-        background-color: #0068AE;
-        color: white;
-    }
-    
-    .skills{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
-    .project-container{
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 3rem;
-    }
-    
-    .portafolio{
-        padding-top: 2rem;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        height: 100vh;
-    }
-    
+
+
+
     .project-card{
-        width: 30%;
-        height: 20rem;
-        box-shadow: 5px 5px 20px #0068AE;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-position: center;
-        background-size: cover;
+        width: 27rem;
+        height: 14rem;
+        margin-bottom: 2rem;
     }
-    
+
     .projet-titre{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
-    
+
     .description{
-        font-size: 1.3rem;
-    }
-    
-    .project-card p{
-        opacity: 0;
-        color: white;
-        padding: 1rem;
+        font-size: 1rem;
     }
 }
