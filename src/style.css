@@ -267,11 +267,63 @@ span:hover{
 }
 
 footer{
-    height: 500px;
+    height:fit-content;
     background-color: black;
     color: aliceblue;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
+}
+footer p{
+    padding: 2rem;
+}
+
+.contact{
+    background-color: #1c1d25;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    color: white;
+}
+
+.form{
+    width: 50%;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form button{
+    margin: 1rem;
+    padding:1rem 3rem;
+    align-self: flex-end;
+    border-radius: 1rem;
+    background-color: #0068AE;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+
+.form button:hover{
+    background-color: rgb(127, 181, 227);
+    color: black;
+}
+
+.form input{
+    border: none;
+    padding: 1rem;
+    margin-bottom:2rem;
+    border-radius: 1rem;
+}
+
+
+.form textarea{
+    border-radius: 1rem;
+    border: none;
 }
 
 
@@ -486,8 +538,6 @@ footer{
         font-size: 3rem;
     }
 
-
-
     .project-card{
         width: 27rem;
         height: 14rem;
@@ -500,6 +550,10 @@ footer{
 
     .description{
         font-size: 1rem;
+    }
+
+    .form{
+        width: 70%;
     }
 }
 
@@ -584,5 +638,22 @@ footer{
 
     footer{
         font-size: 1rem;
+    }
+
+    .form{
+        width: fit-content;
+        padding: 1rem 0rem;
+    }
+
+    .form-container h2{
+        font-size: 2rem;
+    }
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        color: white;
     }
 }
