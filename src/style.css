@@ -301,10 +301,14 @@ footer{
         border-radius: 50%;
         width: 10.5rem;
     }
+
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+    }
     
     span{
         width: 7rem;
-
     }
 
     .fa{
@@ -498,11 +502,18 @@ footer{
 }
 
 @media only screen and (max-width: 425px) {
+    .hero-area{
+        margin-top: 0;
+    }
     .hero-text{
         margin-left: 1rem;
     }
     h1{
         font-size: 4rem;
+    }
+
+    ul{
+        width: min-content;
     }
 
     .hero-text p{
@@ -511,6 +522,7 @@ footer{
 
     .socials{
         padding-bottom: 15rem;
+        margin: 0;
     }
 
     .icons{
@@ -531,6 +543,7 @@ footer{
     }
 
     .about-me{
+        padding: 2rem 3rem;
         margin-top: 4rem;
         width: 75%;
         display: flex;
